@@ -18,22 +18,22 @@ LayerTechnologyFrontendNext.js 14 (App Router), Tailwind CSSBackendNode.js, Expr
 Getting Started
 Prerequisites
 
-Node.js 18+
+Node.js version 18
 npm or yarn
 
 1. Clone the repository
-bashgit clone https://github.com/your-username/task-manager.git
-cd task-manager
+- git clone https://github.com/your-username/task-manager.git
+- cd task-manager
 2. Start the backend
-bashcd server
-npm install
-npm run dev
-# Runs on http://localhost:5000
+- cd server
+- npm install
+- npm run dev
+   Runs on http://localhost:5000
 3. Start the frontend
-bashcd client
-npm install
-npm run dev
-# Runs on http://localhost:3000
+- cd client
+- npm install
+- npm run dev
+  Runs on http://localhost:3000
 
 API Endpoints
 MethodEndpointDescriptionPOST/auth/registerRegister a new userPOST/auth/loginLogin and receive access tokenGET/tasksGet all tasksPOST/tasksCreate a new taskPATCH/tasks/:idUpdate a task titlePATCH/tasks/:id/toggleToggle task completionDELETE/tasks/:idDelete a task
@@ -48,11 +48,3 @@ Project Structure
     └── routes/
         ├── auth.js         # Auth routes
         └── tasks.js        # Task routes
-
-Screenshots
-
-Add screenshots here
-
-
-License
-MIT
